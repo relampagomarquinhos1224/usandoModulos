@@ -1,7 +1,5 @@
 /* celsius-to-fahrenheit.js */
-function celsiusToFahrenheit(celsius) {
-    return celsius * (9 / 5) + 32;
-}
+const { celsiusToFahrenheit } = require('./modulos/converter.js');
 
 // Pega a 3ª entrada de uma lista de argumentos
 const celsiusInput = process.argv[2];

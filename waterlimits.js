@@ -1,7 +1,6 @@
 /* water-limits.js */
-function celsiusToFahrenheit(celsius) {
-  return celsius * (9 / 5) + 32;
-}
+const { celsiusToFahrenheit } = require('./modulos/converter.js');
+
 const pCongelCelsius = 0;
 const pEbulicaoCelsius = 100;
 const pCongelFahrenheit = celsiusToFahrenheit(pCongelCelsius);
